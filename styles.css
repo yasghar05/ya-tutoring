@@ -1,0 +1,154 @@
+@media (max-width: 364px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+#button {
+    text-decoration: none;
+}
+
+#square-list {
+    list-style-type: square;
+}
+
+#square-list li::marker {
+    color: white;
+}
+
+#title, h1 {
+    color: white;
+    font-family: Impact, "Arial Black", sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+body {
+    background-color: black;    
+    color: red;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #1A73E8;
+    box-sizing: border-box;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    background-image: url('../images/20260518_143216.jpg')
+}
+
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%
+}
+
+.image-item {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 300px;
+}
+
+.image-item figcaption {
+    font-family: sans-serif;    
+    margin-top: 10px;
+}
+
+.image-item figcaption h3 {
+    font-size: 16px;    
+    margin: 5px;
+
+}
+
+.image-item figcaption ol {
+    font-size: 14px;
+    margin: 0;
+    padding-left: 20px;   
+    text-align: left;
+}
+
+.image-item img {
+    height: 100%;  
+    object-fit: cover; 
+    object-position: center; 
+    width: 100%;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main {
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    margin: 0 auto;    
+    max-width: 1200px;
+    padding: 25px;
+    width: 100%;
+}
+
+nav {
+    backdrop-filter: blur(10px);
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;   
+    z-index: 1000;
+}
+
+nav a {
+    border-radius: 5px;
+    color: darkblue;
+    padding: 8px 15px;    
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ol li::marker {
+    color: white;
+}
+
+p {
+    text-align: center;
+}
